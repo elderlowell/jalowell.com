@@ -8,3 +8,15 @@ body {
   font-Size: 15px;
   color: #002966;
 }
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
