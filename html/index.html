@@ -8,33 +8,187 @@
     <link rel="icon" href="../media/profile.ico" type="image/x-icon"/ >
     <base href="/" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400,700" rel="stylesheet">
-    <title>Jonathan Lowell, WannaBe Web Developer</title>
+    <title>Jonathan Lowell, Web Developer</title>
   </head>
   <body>
     <div class="w3-bar w3-blue">
-      <a href="http://www.jalowell.com" class="w3-bar-item w3-blue-gray w3-button w3-hover-blue-gray">JAL</a>
-      <div class="w3-dropdown-hover">
-        <button class="w3-button w3-hover-blue-gray">Projects</button>
+      <a href="http://www.jalowell.com" class="w3-bar-item w3-hover-text-lime w3-button w3-hover-none w3-xlarge">JONATHAN LOWELL</a>
+      <div class="w3-bar-item w3-right w3-bar" id="wideBar">
+        <a data-scroll href="#connect" class="w3-bar-item w3-button w3-right w3-hover-text-lime w3-hover-none">Connect</a>
+        <a data-scroll href="#about" class="w3-bar-item w3-button w3-right w3-hover-text-lime w3-hover-none">About Me</a>
+        <a data-scroll href="#portfolio" class="w3-bar-item w3-button w3-right w3-hover-text-lime w3-hover-none">Portfolio</a>
+        <a data-scroll href="#skills" class="w3-bar-item w3-button w3-right w3-hover-text-lime w3-hover-none">Skills</a>
+      </div>
+      <div class="w3-bar-item w3-right w3-dropdown-hover w3-hover-none w3-hover-text-lime" id="narrowBar">
+        <div class="w3-button w3-blue w3-hover-none w3-hover-text-lime">Menu</div>
         <div class="w3-dropdown-content w3-bar-block w3-border">
-          <a href="http://rps.jalowell.com" class="w3-bar-item w3-button w3-lime w3-hover-blue-gray">RPS</a>
+          <a data-scroll href="#skills" class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange">Skills</a>
+          <a data-scroll href="#portfolio" class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange">Portfolio</a>
+          <a data-scroll href="#about" class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange">About Me</a>
+          <a data-scroll href="#connect" class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange">Connect</a>
         </div>
       </div>
     </div>
-    <div class="w3-container" style="margin:0 0 38px 0">
-      <h2 class="w3-center">Hi. I'm Jonathan.</h2>
-      <div class="w3-container w3-center">
-        <img class="w3-image" style="max-height: 35vw;" src="../media/Jonathan-peanuts.png" title="Jonathan Lowell - a character made at www.peanutizeme.com" alt="Jonathan Lowell - a character made at www.peanutizeme.com"/>
+    <div class="w3-container w3-section w3-center">
+      <p class="w3-xxlarge w3-margin">Hi. I'm Jonathan.</p>
+      <p class="w3-xxlarge w3-margin">I'm a web developer.</p>
+      <p class="">
+        <a href="#portfolio" class="w3-button w3-lime w3-hover-dark-gray w3-large w3-hover-text-lime w3-round-large w3-hover-shadow">SEE MY PORTFOLIO</a>
+      </p>
+    </div>
+    <div class="w3-container w3-dark-gray w3-center" id="skills">
+      <p class="w3-xxlarge">I use the following technologies in my web development:</p>
+      <div class="w3-bar w3-white w3-round-large w3-margin w3-hover-shadow">
+        <h2>Front-End</h2>
+        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile w3-center">
+          <div class="w3-bar-item">
+            <img src="../media/html5-original.svg" style="width: 40px">
+          </div>
+          <div class="w3-bar-item">
+            <h5>HTML5</h5>
+          </div>
+        </div>
+        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile w3-center">
+          <div class="w3-bar-item">
+            <img src="../media/css3-original.svg" style="width: 40px">
+          </div>
+          <div class="w3-bar-item">
+            <h5>CSS3</h5>
+          </div>
+        </div>
+        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile w3-center">
+          <div class="w3-bar-item">
+            <img src="../media/javascript-original.svg" style="width: 40px">
+          </div>
+          <div class="w3-bar-item">
+            <h5>JavaScript</h5>
+          </div>
+        </div>
+        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile w3-center">
+          <div class="w3-bar-item">
+            <img src="../media/angularjs-original.svg" style="width: 40px">
+          </div>
+          <div class="w3-bar-item">
+            <h5>AngularJS</h5>
+          </div>
+        </div>
       </div>
-      <div style="text-align: justify; font-size: 1.1em">
-        <p>I enjoy developing. I really do. I've never worked for a company as any type of developer in job title. In fact, it's been years since I've worked for any company in any technology capacity. But I always end up finding a problem that needs a solution. And web apps tend to be my flavor for solutions.</p>
-        <p>And yes, my hair is going white. It has been since I was 16 years old. Thanks, Mom.</p>
+      <div class="w3-bar w3-white w3-round-large w3-margin w3-hover-shadow">
+        <h2>Back-End</h2>
+        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile">
+          <div class="w3-bar-item">
+            <img src="../media/nodejs-original.svg" style="width: 40px">
+          </div>
+          <div class="w3-bar-item">
+            <h5>Node.js</h5>
+          </div>
+        </div>
+        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile">
+          <div class="w3-bar-item">
+            <img src="../media/express-original.svg" style="width: 40px">
+          </div>
+          <div class="w3-bar-item">
+            <h5>Express</h5>
+          </div>
+        </div>
+        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile">
+          <div class="w3-bar-item">
+            <img src="../media/postgresql-original.svg" style="width: 40px">
+          </div>
+          <div class="w3-bar-item">
+            <h5>PostgreSQL</h5>
+          </div>
+        </div>
+        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile">
+          <div class="w3-bar-item">
+            <img src="../media/auth0-original.svg" style="width: 40px">
+          </div>
+          <div class="w3-bar-item">
+            <h5>Auth0</h5>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="w3-bar w3-blue footer">
-      <a class="w3-bar-item w3-blue-gray w3-tiny">Follow Me</a>
-      <a href="https://www.facebook.com/lowell.jonathan" target="_blank" class="w3-right w3-tiny w3-bar-item w3-button">Facebook</a>
-      <a href="https://github.com/elderlowell" target="_blank" class="w3-right w3-tiny w3-bar-item w3-button">GitHub</a>
-      <a href="mailto:jonathan&#64jalowell.com" class="w3-right w3-tiny w3-bar-item w3-button">Email</a>
+    <div class="w3-container w3-padding" id="portfolio">
+      <p class="w3-xxlarge w3-center">See some of my projects:</p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <div class="w3-round-small w3-margin w3-hover-shadow">
+            <div class="w3-dark-gray w3-padding">
+              <div class="w3-large w3-text-lime w3-right">Personal Project</div>
+              <div class="w3-large">My Wallet</div>
+            </div>
+            <div class="w3-row w3-white w3-padding w3-border">
+              <div class="w3-half" style="text-align:justify; padding-right: 16px">
+                <p>Simple web app to track personal financial transactions and manage budgets</p>
+                <p class="" style="display:flex; justify-content:space-between; height:40px">
+                  <img src="../media/html5-original.svg" style="width:25px">
+                  <img src="../media/css3-original.svg" style="width:25px">
+                  <img src="../media/javascript-original.svg" style="width:25px">
+                  <img src="../media/angularjs-original.svg" style="width:25px">
+                  <img src="../media/nodejs-original.svg" style="width:25px">
+                  <img src="../media/postgresql-original.svg" style="width:25px">
+                  <img src="../media/express-original.svg" style="width:25px">
+                  <img src="../media/auth0-original.svg" style="width:25px">
+                </p>
+              </div>
+              <div class="w3-half">
+                <p>
+                  <a href="https://young-mesa-66671.herokuapp.com/#!/login" target="_blank"><img src="../media/wallet-sample.png" style="width:100%; position:relative; top:0; left:0"></a href="https://young-mesa-66671.herokuapp.com/#!/login">
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w3-half">
+          <div class="w3-round-small w3-margin w3-hover-shadow">
+            <div class="w3-dark-gray w3-padding">
+              <div class="w3-large w3-text-lime w3-right">Personal Project</div>
+              <div class="w3-large">RPS</div>
+            </div>
+            <div class="w3-row w3-white w3-padding w3-border">
+              <div class="w3-half" style="text-align:justify; padding-right: 16px">
+                <p>Simple front-end-only Rock Paper Scissors game</p>
+                <p class="" style="display:flex; justify-content:space-between; height:40px">
+                  <img src="../media/html5-original.svg" style="width:25px">
+                  <img src="../media/css3-original.svg" style="width:25px">
+                  <img src="../media/javascript-original.svg" style="width:25px">
+                  <img src="../media/angularjs-original.svg" style="width:25px">
+                </p>
+              </div>
+              <div class="w3-half">
+                <p>
+                  <a href="https://rps.jalowell.com" target="_blank"><img src="../media/rps-sample.png" style="width:97%; position:relative; top:0; left:0"></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="w3-container w3-padding-32 w3-blue" id="about">
+      <p class="w3-xxlarge w3-center">About Me</p>
+      <div class="aboutRow">
+        <div class="aboutPic">
+          <img class="pic" src="../media/Jonathan-peanuts.png">
+        </div>
+        <div class="aboutText">
+          <p>I enjoy developing. I really do. I've never worked for a company as any type of developer in job title. In fact, it's been years since I've worked for a company in any technology capacity. But I always end up finding a problem that needs a solution. And web apps tend to be my flavor for solutions.</p>
+          <p>And yes, my hair is going white. It has been since I was 16 years old. Thanks, Mom.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-bar w3-padding-32 w3-xxlarge" id="connect" style="padding:0 15%">
+      <div class="w3-bar-item w3-mobile">Connect</div>
+      <a href="https://www.facebook.com/lowell.jonathan" target="_blank" class="w3-right w3-bar-item w3-button w3-hover-none w3-hover-text-lime w3-mobile"><img src="../media/facebook-original.svg" style="width:50px" /></a>
+      <a href="https://github.com/elderlowell" target="_blank" class="w3-right w3-bar-item w3-button w3-hover-none w3-hover-text-lime w3-mobile"><img src="../media/github-original.svg" style="width:50px" /></a>
+      <a href="https://linkedin.com/jalowell" target="_blank" class="w3-right w3-bar-item w3-button w3-hover-none w3-hover-text-lime w3-mobile"><img src="../media/linkedin-original.svg" style="width:50px" /></a>
+      <a href="mailto:jonathan&#64jalowell.com" class="w3-right w3-bar-item w3-button w3-hover-none w3-hover-text-lime w3-mobile"><img src="../media/email-original.svg" style="width:50px" /></a>
+    </div>
+    <div class="w3-bar w3-dark-gray w3-padding-32 w3-large" style="padding:0 15%">
+      &copy; 2018 Jonathan Lowell
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
   </body>
 </html>

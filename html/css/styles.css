@@ -9,14 +9,69 @@ body {
   color: #002966;
 }
 
-.header {
-  position: fixed;
-  width: 100%;
-  top: 0;
+.btn-hover:hover {
+  background-color: rgba(0, 0, 0, .2) !important;
 }
 
-.footer {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+#wideBar {
+  display: block;
+}
+
+#narrowBar {
+  display: none;
+}
+
+.aboutRow {
+  display: flex;
+  width: 70%;
+  margin:0 auto;
+  border-top: solid 2px lime;
+  padding-top: 32px;
+}
+
+.aboutPic {
+  padding-right: 32px;
+  flex: .25;
+}
+
+.pic {
+  width: 85%;
+}
+
+.aboutText {
+  flex: .75;
+  font-size: 20px;
+  text-align: justify;
+}
+
+@media (min-width: 1300px) {
+  .aboutText {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 885px) {
+  #wideBar {
+    display: none;
+  }
+
+  #narrowBar {
+    display: block;
+  }
+
+  .aboutRow {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pic {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .aboutText {
+    font-size: 16px;
+  }
 }
