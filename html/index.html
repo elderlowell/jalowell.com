@@ -11,172 +11,113 @@
     <title>Jonathan Lowell, Web Developer</title>
   </head>
   <body>
-    <div class="w3-bar w3-blue">
-      <a href="http://www.jalowell.com" class="w3-bar-item w3-hover-text-lime w3-button w3-hover-none w3-xlarge">JONATHAN LOWELL</a>
+    <div class="w3-bar w3-blue" id="navBar">
+      <a href="http://www.jalowell.com" class="w3-bar-item w3-hover-text-orange w3-button w3-hover-none w3-xlarge">JAL</a>
       <div class="w3-bar-item w3-right w3-bar" id="wideBar">
-        <a data-scroll href="#connect" class="w3-bar-item w3-button w3-right w3-hover-text-lime w3-hover-none">Connect</a>
-        <a data-scroll href="#about" class="w3-bar-item w3-button w3-right w3-hover-text-lime w3-hover-none">About Me</a>
-        <a data-scroll href="#portfolio" class="w3-bar-item w3-button w3-right w3-hover-text-lime w3-hover-none">Portfolio</a>
-        <a data-scroll href="#skills" class="w3-bar-item w3-button w3-right w3-hover-text-lime w3-hover-none">Skills</a>
+        <a data-scroll href="#connect" class="w3-bar-item w3-button w3-right w3-hover-text-white w3-hover-black w3-hover-opacity">Connect</a>
+        <a data-scroll href="#about" class="w3-bar-item w3-button w3-right w3-hover-text-white w3-hover-black w3-hover-opacity">About Me</a>
+        <a data-scroll href="#portfolio" class="w3-bar-item w3-button w3-right w3-hover-text-white w3-hover-black w3-hover-opacity">Portfolio</a>
+        <a data-scroll href="#skills" class="w3-bar-item w3-button w3-right w3-hover-text-white w3-hover-black w3-hover-opacity">Skills</a>
       </div>
-      <div class="w3-bar-item w3-right w3-dropdown-hover w3-hover-none w3-hover-text-lime" id="narrowBar">
-        <div class="w3-button w3-blue w3-hover-none w3-hover-text-lime">Menu</div>
+      <div class="w3-bar-item w3-right w3-dropdown-hover w3-hover-none" id="narrowBar">
+        <div class="w3-button w3-hover-none" id="menuBtn">Menu</div>
         <div class="w3-dropdown-content w3-bar-block w3-border">
-          <a data-scroll href="#skills" class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange">Skills</a>
-          <a data-scroll href="#portfolio" class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange">Portfolio</a>
-          <a data-scroll href="#about" class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange">About Me</a>
-          <a data-scroll href="#connect" class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange">Connect</a>
+          <a data-scroll href="#skills" class="w3-bar-item w3-button w3-hover-none">Skills</a>
+          <a data-scroll href="#portfolio" class="w3-bar-item w3-button w3-hover-none">Portfolio</a>
+          <a data-scroll href="#about" class="w3-bar-item w3-button w3-hover-none">About Me</a>
+          <a data-scroll href="#connect" class="w3-bar-item w3-button w3-hover-none">Connect</a>
         </div>
       </div>
     </div>
-    <div class="w3-container w3-section w3-center">
-      <p class="w3-xxlarge w3-margin">Hi. I'm Jonathan.</p>
-      <p class="w3-xxlarge w3-margin">I'm a web developer.</p>
-      <p class="">
-        <a href="#portfolio" class="w3-button w3-lime w3-hover-dark-gray w3-large w3-hover-text-lime w3-round-large w3-hover-shadow">SEE MY PORTFOLIO</a>
-      </p>
+    <div id="box1">
+      <div id="box1Title">Hi. I'm Jonathan.<br />I'm a web developer.</div>
     </div>
-    <div class="w3-container w3-dark-gray w3-center" id="skills">
-      <p class="w3-xxlarge">I use the following technologies in my web development:</p>
-      <div class="w3-bar w3-white w3-round-large w3-margin w3-hover-shadow">
-        <h2>Front-End</h2>
-        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile w3-center">
-          <div class="w3-bar-item">
-            <img src="../media/html5-original.svg" style="width: 40px">
+    <div>
+      <div style="text-align:center; color:black; height:25vh; width:100vw; font-size:3em; background-color:#f2f2f2" class="w3-cell w3-cell-middle">Words To Live By</div>
+      <div id="box2">
+        <div class="w3-content w3-display-container" style="width:100%; height:60vh">
+          <div class="mySlides w3-container w3-animate-right" style="height:50vh; width:100%">
+            <div class="w3-center">
+              <img src="./media/thenanobel-programming-1701.png" style="max-height:40vh; max-width:25vw"/>
+            </div>
+            <div class="w3-right w3-margin-left">
+              <p class="box2Title"><i>"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it."</i><span class="w3-right"> - Patrick McKenzie</span></p>
+            </div>
           </div>
-          <div class="w3-bar-item">
-            <h5>HTML5</h5>
+          <div class="mySlides w3-container w3-animate-right" style="height:50vh; width:100%">
+            <div class="w3-center">
+              <img src="./media/pexels-photo-244371.jpeg" style="max-height:40vh; max-width:25vw"/>
+            </div>
+            <div class="w3-right w3-margin-left">
+              <p class="box2Title"><i>"One of the best programming skills you can have is knowing when to walk away for awhile."</i><span class="w3-right"> - Oscar Godson</span></p>
+            </div>
           </div>
-        </div>
-        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile w3-center">
-          <div class="w3-bar-item">
-            <img src="../media/css3-original.svg" style="width: 40px">
+          <div class="mySlides w3-container w3-animate-right">
+            <div class="w3-center">
+              <img src="./media/mickey-mouse35.png" style="max-height:40vh; max-width:25vw"/>
+            </div>
+            <div class="w3-right w3-margin-left">
+              <p class="box2Title"><i>"It's kind of fun to do the impossible."</i><span class="w3-right"> - Walt Disney</span></p>
+            </div>
           </div>
-          <div class="w3-bar-item">
-            <h5>CSS3</h5>
-          </div>
-        </div>
-        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile w3-center">
-          <div class="w3-bar-item">
-            <img src="../media/javascript-original.svg" style="width: 40px">
-          </div>
-          <div class="w3-bar-item">
-            <h5>JavaScript</h5>
-          </div>
-        </div>
-        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile w3-center">
-          <div class="w3-bar-item">
-            <img src="../media/angularjs-original.svg" style="width: 40px">
-          </div>
-          <div class="w3-bar-item">
-            <h5>AngularJS</h5>
-          </div>
-        </div>
-      </div>
-      <div class="w3-bar w3-white w3-round-large w3-margin w3-hover-shadow">
-        <h2>Back-End</h2>
-        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile">
-          <div class="w3-bar-item">
-            <img src="../media/nodejs-original.svg" style="width: 40px">
-          </div>
-          <div class="w3-bar-item">
-            <h5>Node.js</h5>
-          </div>
-        </div>
-        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile">
-          <div class="w3-bar-item">
-            <img src="../media/express-original.svg" style="width: 40px">
-          </div>
-          <div class="w3-bar-item">
-            <h5>Express</h5>
-          </div>
-        </div>
-        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile">
-          <div class="w3-bar-item">
-            <img src="../media/postgresql-original.svg" style="width: 40px">
-          </div>
-          <div class="w3-bar-item">
-            <h5>PostgreSQL</h5>
-          </div>
-        </div>
-        <div class="w3-bar-item w3-button w3-hover-none w3-hover-text-orange w3-bar w3-mobile">
-          <div class="w3-bar-item">
-            <img src="../media/auth0-original.svg" style="width: 40px">
-          </div>
-          <div class="w3-bar-item">
-            <h5>Auth0</h5>
+          <div class="w3-center w3-display-bottommiddle w3-margin-bottom" style="width:100%">
+            <div class="w3-left w3-margin-left" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-margin-right" onclick="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
           </div>
         </div>
       </div>
     </div>
-    <div class="w3-container w3-padding" id="portfolio">
-      <p class="w3-xxlarge w3-center">See some of my projects:</p>
-      <div class="w3-row">
-        <div class="w3-half">
-          <div class="w3-round-small w3-margin w3-hover-shadow">
-            <div class="w3-dark-gray w3-padding">
-              <div class="w3-large w3-text-lime w3-right">Personal Project</div>
-              <div class="w3-large">My Wallet</div>
+    <div id="skills">
+      <div style="text-align:center; color:white; height:25vh; width:100vw; font-size:4em; background-color:rgba(255,255,255,0.3)" class="w3-cell w3-cell-middle">Skills</div>
+      <div class="skills">
+        <div class="w3-padding-large w3-center w3-text-white">
+          <div class="feSkills">
+            <div class="">
+              <img src="../media/html5-original.svg">
             </div>
-            <div class="w3-row w3-white w3-padding w3-border">
-              <div class="w3-half" style="text-align:justify; padding-right: 16px">
-                <p>Simple web app to track personal financial transactions and manage budgets</p>
-                <p class="" style="display:flex; justify-content:space-between; height:40px">
-                  <img src="../media/html5-original.svg" style="width:25px">
-                  <img src="../media/css3-original.svg" style="width:25px">
-                  <img src="../media/javascript-original.svg" style="width:25px">
-                  <img src="../media/angularjs-original.svg" style="width:25px">
-                  <img src="../media/nodejs-original.svg" style="width:25px">
-                  <img src="../media/postgresql-original.svg" style="width:25px">
-                  <img src="../media/express-original.svg" style="width:25px">
-                  <img src="../media/auth0-original.svg" style="width:25px">
-                </p>
+            <div class="" style="display:flex; flex-direction:row; width:100%">
+              <div class="" style="flex:1">
+                <img src="../media/javascript-original.svg">
               </div>
-              <div class="w3-half">
-                <p>
-                  <a href="https://young-mesa-66671.herokuapp.com/#!/login" target="_blank"><img src="../media/wallet-sample.png" style="width:100%; position:relative; top:0; left:0"></a href="https://young-mesa-66671.herokuapp.com/#!/login">
-                </p>
+              <div class="w3-xlarge" style="flex:1">Front-End</div>
+              <div class="" style="flex:1">
+                <img src="../media/angularjs-original.svg">
               </div>
+            </div>
+            <div class="">
+              <img src="../media/css3-original.svg">
             </div>
           </div>
         </div>
-        <div class="w3-half">
-          <div class="w3-round-small w3-margin w3-hover-shadow">
-            <div class="w3-dark-gray w3-padding">
-              <div class="w3-large w3-text-lime w3-right">Personal Project</div>
-              <div class="w3-large">RPS</div>
+        <div class="w3-padding-large w3-center w3-text-white">
+          <div class="beSkills">
+            <div class="">
+              <img src="../media/nodejs-original.svg">
             </div>
-            <div class="w3-row w3-white w3-padding w3-border">
-              <div class="w3-half" style="text-align:justify; padding-right: 16px">
-                <p>Simple front-end-only Rock Paper Scissors game</p>
-                <p class="" style="display:flex; justify-content:space-between; height:40px">
-                  <img src="../media/html5-original.svg" style="width:25px">
-                  <img src="../media/css3-original.svg" style="width:25px">
-                  <img src="../media/javascript-original.svg" style="width:25px">
-                  <img src="../media/angularjs-original.svg" style="width:25px">
-                </p>
+            <div class="" style="display:flex; flex-direction:row; width:100%">
+              <div class="" style="flex:1">
+                <img src="../media/postgresql-original.svg">
               </div>
-              <div class="w3-half">
-                <p>
-                  <a href="https://rps.jalowell.com" target="_blank"><img src="../media/rps-sample.png" style="width:97%; position:relative; top:0; left:0"></a>
-                </p>
+              <div class="w3-xlarge" style="flex:1">Back-End</div>
+              <div class="" style="flex:1">
+                <img src="../media/auth0-original.svg">
               </div>
+            </div>
+            <div class="">
+              <img src="../media/express-original.svg" style="background-color:rgba(255,255,255,0.2); border-radius:30%;">
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="w3-container w3-padding-32 w3-blue" id="about">
-      <p class="w3-xxlarge w3-center">About Me</p>
-      <div class="aboutRow">
-        <div class="aboutPic">
-          <img class="pic" src="../media/Jonathan-peanuts.png">
-        </div>
-        <div class="aboutText">
-          <p>I enjoy developing. I really do. I've never worked for a company as any type of developer in job title. In fact, it's been years since I've worked for a company in any technology capacity. But I always end up finding a problem that needs a solution. And web apps tend to be my flavor for solutions.</p>
-          <p>And yes, my hair is going white. It has been since I was 16 years old. Thanks, Mom.</p>
-        </div>
-      </div>
+    <div id="portfolio">
+      <div id="box2Title" class="w3-xxlarge">Porfolio</div>
+    </div>
+    <div id="about">
+      <div id="box1Title">Box 5 - Portfolio</div>
     </div>
     <div class="w3-bar w3-padding-32 w3-xxlarge" id="connect" style="padding:0 15%">
       <div class="w3-bar-item w3-mobile">Connect</div>
@@ -188,7 +129,57 @@
     <div class="w3-bar w3-dark-gray w3-padding-32 w3-large" style="padding:0 15%">
       &copy; 2018 Jonathan Lowell
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
-    <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script>
+      $(document).ready(function(){
+        $(window).bind('scroll', function() {
+          var distance = 54;
+          if ($(window).scrollTop() > distance) {
+            $('#navBar').addClass('scrolled');
+            $('#navBar').addClass('w3-black');
+            $('#navBar').addClass('w3-opacity');
+            $('#navBar').removeClass('w3-blue');
+          }
+          else {
+            $('#navBar').removeClass('scrolled');
+            $('#navBar').removeClass('w3-black');
+            $('#navBar').removeClass('w3-opacity');
+            $('#navBar').addClass('w3-blue');
+          }
+        });
+      });
+    </script>
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function currentDiv(n) {
+        showDivs(slideIndex = n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+           dots[i].className = dots[i].className.replace(" w3-white", "");
+        }
+        x[slideIndex-1].style.display = "flex";
+        dots[slideIndex-1].className += " w3-white";
+      }
+    </script>
   </body>
 </html>
