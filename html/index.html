@@ -18,10 +18,12 @@
         <a data-scroll href="#about" class="w3-bar-item w3-button w3-right w3-hover-text-white w3-hover-black w3-hover-opacity">About Me</a>
         <a data-scroll href="#portfolio" class="w3-bar-item w3-button w3-right w3-hover-text-white w3-hover-black w3-hover-opacity">Portfolio</a>
         <a data-scroll href="#skills" class="w3-bar-item w3-button w3-right w3-hover-text-white w3-hover-black w3-hover-opacity">Skills</a>
+        <a data-scroll href="#wtcb" class="w3-bar-item w3-button w3-right w3-hover-text-white w3-hover-black w3-hover-opacity">Words</a>
       </div>
       <div class="w3-bar-item w3-right w3-dropdown-hover w3-hover-none" id="narrowBar">
         <div class="w3-button w3-hover-none" id="menuBtn">Menu</div>
         <div class="w3-dropdown-content w3-bar-block w3-border">
+          <a data-scroll href="#wtcb" class="w3-bar-item w3-button w3-hover-none">Words</a>
           <a data-scroll href="#skills" class="w3-bar-item w3-button w3-hover-none">Skills</a>
           <a data-scroll href="#portfolio" class="w3-bar-item w3-button w3-hover-none">Portfolio</a>
           <a data-scroll href="#about" class="w3-bar-item w3-button w3-hover-none">About Me</a>
@@ -32,9 +34,9 @@
     <div id="box1">
       <div id="box1Title">Hi. I'm Jonathan.<br />I'm a web developer.</div>
     </div>
-    <div>
-      <div style="text-align:center; color:black; height:25vh; width:100vw; font-size:3em; background-color:#f2f2f2" class="w3-cell w3-cell-middle">Words To Live By</div>
-      <div id="box2">
+    <div id="wtcb">
+      <div style="text-align:center; color:black; height:25vh; width:100vw; font-size:2.5em; background-color:#f2f2f2" class="w3-cell w3-cell-middle">Words To Code By</div>
+      <div class="box2">
         <div class="w3-content w3-display-container" style="width:100%; height:60vh">
           <div class="mySlides w3-container w3-animate-right" style="height:50vh; width:100%">
             <div class="w3-center">
@@ -114,10 +116,23 @@
       </div>
     </div>
     <div id="portfolio">
-      <div id="box2Title" class="w3-xxlarge">Porfolio</div>
+      <div style="text-align:center; color:black; height:25vh; width:100vw; font-size:4em; background-color:#f2f2f2" class="w3-cell w3-cell-middle">Portfolio</div>
+      <div class="portfolio w3-container w3-center">
+        <div class="" style="flex:1">
+          <p style="font-size:16px">RPS (Rock Paper Scissors)</p>
+          <a href="https://rps.jalowell.com"><img src="../media/rps-sample.png" style="max-height:25vh"></a>
+        </div>
+        <div class="" style="flex:1">
+          <p style="font-size:16px">My Wallet</p>
+          <a href="https://young-mesa-66671.herokuapp.com/#!/login"><img src="../media/wallet-sample.png" style="max-height:25vh"></a>
+        </div>
+      </div>
     </div>
     <div id="about">
-      <div id="box1Title">Box 5 - Portfolio</div>
+      <div style="text-align:center; color:white; height:25vh; width:100vw; font-size:4em; background-color:rgba(255,255,255,0.3)" class="w3-cell w3-cell-middle">About Me</div>
+      <div class="about">
+        <p>I am a recovering attorney. That might seem like a slap in the face to other attorneys, but I don't mean it that way. I applaud my attorney colleagues who make it work. In my case, private practice was something that consumed me in a very negative way. It was something I needed to leave behind.<br /><br />On the other hand, I enjoy developing. I really do. I've never worked for a company as any type of developer in job title. In fact, it's been years since I've worked for a company in any technology capacity. But I always end up finding a problem that needs a solution. And web apps have become my flavor for solutions.<br /><br />Let's connect and see what marvelous things we can build together.</p>
+      </div>
     </div>
     <div class="w3-bar w3-padding-32 w3-xxlarge" id="connect" style="padding:0 15%">
       <div class="w3-bar-item w3-mobile">Connect</div>
